@@ -1,0 +1,19 @@
+@import "variables";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 1s;
+}
+::selection{
+  background-color: #f9004d;
+  color: white;
+}
+body {
+  font-size: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lighten($primary, 30);
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
