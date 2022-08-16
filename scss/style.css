@@ -231,7 +231,7 @@ body {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   text-decoration: none;
-  width: 80%;
+  width: 70%;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -242,11 +242,12 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 20px;
 }
 
 .nav-holder :hover {
   background-color: #f9004d;
-  width: 80%;
+  width: 70%;
 }
 
 .content-holder {
